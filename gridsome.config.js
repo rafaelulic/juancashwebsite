@@ -23,6 +23,7 @@ function addStyleResource (rule) {
 
 module.exports = {
   siteName: 'JuanCash',
+  pathPrefix: '/index/',
   plugins: [],
   chainWebpack(config) {
     // Load variables for all vue-files

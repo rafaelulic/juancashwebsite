@@ -1,13 +1,14 @@
 <template>
   <Layout>
-    Merchants
+business
+
   </Layout>
 </template>
 
 <script>
 export default {
   metaInfo: {
-    title: 'About us'
+    title: 'Business'
   }
 }
 </script>
