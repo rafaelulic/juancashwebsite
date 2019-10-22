@@ -44,9 +44,9 @@ export default {
       background-color: white;
       padding: 0 50px;
       display: flex;
-      justify-content: space-around;
+      justify-content: space-between;
       align-items: center;
-      width: 750px;
+      width: 800px;
     }
   }
 </style>

@@ -25,7 +25,21 @@ export default {
 }
 
 </script>
-<style lang="scss" scoped>
-.layout {font-family: 'Open Sans', sans-serif;}
+<style lang="scss">
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.layout {
+  font-family: 'Open Sans', sans-serif;
+
+  display: flex;
+  flex-flow: column;
+  
+  footer {
+    flex-grow: 1;
+  }
+}
 
 </style>

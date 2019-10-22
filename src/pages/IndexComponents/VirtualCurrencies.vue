@@ -2,7 +2,7 @@
   <div class="virtual-currencies-section">
     <div class="container virtual-currencies-wrapper">
       <div class="virtual-currencies-left">
-        <h2>Virtual Currencies</h2>
+        <h2>Virtual Currency Transaction</h2>
         <p>Allows quick buying, selling, exchange of cryptocurrencies and assures the security of crypto assets. Committed to provide secure, transparent and professional digital currency trading services for users worldwide.</p>
         <button class="btn-large">
           Learn More
@@ -17,7 +17,7 @@
 </template>
 
 <script>
-export default {};
+export default {}
 </script>
 
 <style lang="scss" scoped>

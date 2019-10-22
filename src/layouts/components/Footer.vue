@@ -51,10 +51,11 @@ export default {};
 
 <style lang="scss" scoped>
 .footer {
-  padding-top: 100px;
+  padding-top: 50px;
   height: 350px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+  justify-items: stretch;
 
   h4 {
     font-size: 16px;

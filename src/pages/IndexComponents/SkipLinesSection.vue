@@ -82,14 +82,15 @@ export default {}
       display: flex;
       justify-content: space-around;
       align-items: center;
-      width: 800px;
+      width: 900px;
     }
 
     .offer {
-      margin-top: 130px;
+      margin-top: 133px;
       color: black;
       display: flex;
       justify-content: space-evenly;
+      
 
       .offer-left {
         margin-right: 450px;
@@ -99,7 +100,7 @@ export default {}
         .offer-list {
           display: flex;
           justify-content: flex-start;
-          align-items: center;
+          align-items: flex-start;
           margin-bottom: 20px;
           .offer-list-group {
             padding-left: 20px;
