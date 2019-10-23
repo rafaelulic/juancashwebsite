@@ -1,9 +1,9 @@
 <template>
-  <header class="header">
+  <header :class="[isHome ? 'header' : 'header-2']">
     <nav class="navbar container">
       <div class="logo">
         <g-link to="/">
-          <g-image alt="JuanCash Logo" src="~/assets/images/homepage/logo-juancash.png" />
+          <g-image alt="JuanCash Logo" :src="require('~/assets/images/homepage/logo-juancash'+[isHome ? '' : blue]+'.png')" />
         </g-link>
       </div>
 
@@ -19,7 +19,7 @@
             <g-link to="/merchants">Merchants</g-link>
           </li>
           <li class="learn-more">
-            LEARN MORE
+            LEARN MORE <font-awesome-icon icon="caret-down" />
             <ul class="dropdown">
               <li>
                 <g-link>Blog</g-link>
@@ -34,26 +34,26 @@
           </li>
           <li>
             <g-link>
-              <g-image alt="JuanCash Facebook" src="~/assets/images/homepage/social-facebook.png" />
+              <g-image alt="JuanCash Facebook" :src="require('~/assets/images/homepage/social-facebook'+[isHome ? '' : blue]+'.png')" />
             </g-link>
           </li>
           <li>
             <g-link>
-              <g-image alt="JuanCash Facebook" src="~/assets/images/homepage/social-wechat.png" />
+              <g-image alt="JuanCash Facebook" :src="require('~/assets/images/homepage/social-wechat'+ [isHome ? '' : blue] +'.png')" />
             </g-link>
           </li>
           <li>
             <g-link>
-              <g-image alt="JuanCash Facebook" src="~/assets/images/homepage/social-twitter.png" />
+              <g-image alt="JuanCash Facebook" :src="require('~/assets/images/homepage/social-twitter'+ [isHome ? '' : blue] +'.png')" />
             </g-link>
           </li>
           <li>
             <g-link>
-              <g-image alt="JuanCash Facebook" src="~/assets/images/homepage/social-instagram.png" />
+              <g-image alt="JuanCash Facebook" :src="require('~/assets/images/homepage/social-instagram'+ [isHome ? '' : blue] +'.png')" />
             </g-link>
           </li>
           <li>
-            <button class="button">English</button>
+            <button class="button">English &nbsp; <font-awesome-icon icon="caret-down" /></button>
             <!-- <g-link><g-image alt="JuanCash Facebook" src="~/assets/images/homepage/social-facebook.png" /></g-link> -->
           </li>
         </ul>
@@ -63,7 +63,24 @@
 </template>
 
 <script>
-export default {};
+export default {
+  data() {
+    return {
+      isHome: false,
+      blue: "-blue",
+    }
+  },
+  beforeMount () {
+    let currentRoute = this.$route.path
+
+    if (currentRoute === '/'){
+      this.isHome = true
+    } else {
+      this.isHome = false
+    }
+  }
+
+}
 </script>
 
 <style lang="scss" scoped>
@@ -71,7 +88,7 @@ export default {};
   width: 100%;
   background: $jcblue;
   height: 80px;
-
+  
   .navbar {
     height: 80px;
     display: flex;
@@ -90,7 +107,7 @@ export default {};
         align-items: center;
 
         li {
-          padding-left: 10px;
+          padding-left: 20px;
           color: white;
 
           a {
@@ -132,4 +149,71 @@ export default {};
     }
   }
 }
+
+.header-2 {
+  width: 100%;
+  background: white;
+  height: 80px;
+  
+  .navbar {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+    .nav-link-container {
+      flex: 1;
+      .nav-link-wrapper {
+        list-style: none;
+        height: 80px;
+        margin: 0;
+
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+
+        li {
+          padding-left: 20px;
+          color: black;
+
+          a {
+            text-decoration: none;
+            color: black;
+            text-transform: uppercase;
+          }
+        }
+
+        li.learn-more {
+          cursor: pointer;
+
+          &:hover {
+            .dropdown {
+              display: block;
+            }
+          }
+
+          .dropdown {
+            background: $jcblue;
+            position: absolute;
+            display: none;
+            list-style-type: none;
+            width: 112px;
+
+            li {
+              padding: 10px;
+              a {
+                color: white;
+              }
+
+              &:hover {
+                background: $jcgold;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
 </style>
+

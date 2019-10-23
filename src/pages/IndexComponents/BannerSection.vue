@@ -3,7 +3,7 @@
     <div class="container banner-wrapper">
       <div class="banner-left">
         <h1>Your All-in-Juan Financial App</h1>
-        <p>Enjoy cashless &nbsp; hassle-free transactions with your e-wallet partner toward financial convenience!</p>
+        <p>Enjoy cashless &amp; hassle-free transactions with your e-wallet partner toward financial convenience!</p>
         <div class="download-images">
           <div class="download-images-left">
             <g-image src="~/assets/images/homepage/btn-ico-app-android.png" />

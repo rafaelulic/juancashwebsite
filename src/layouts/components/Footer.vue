@@ -89,12 +89,21 @@ export default {};
   }
 
   .juancash-section {
-    padding-left: 30px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
     .social-container {
       img {
         margin-right: 10px;
       }
     }
+  }
+
+  .qr-code {
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-start;
+    align-items: center;
   }
 }
 </style>

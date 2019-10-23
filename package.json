@@ -7,10 +7,14 @@
     "explore": "gridsome explore"
   },
   "dependencies": {
+    "@fortawesome/free-solid-svg-icons": "^5.11.2",
     "gridsome": "^0.7.0",
     "typeface-open-sans": "0.0.75"
   },
   "devDependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.25",
+    "@fortawesome/free-brands-svg-icons": "^5.11.2",
+    "@fortawesome/vue-fontawesome": "^0.1.7",
     "node-sass": "^4.12.0",
     "sass-loader": "^8.0.0",
     "style-resources-loader": "^1.2.1"

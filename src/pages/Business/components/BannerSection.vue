@@ -10,10 +10,9 @@
 <style lang="scss" scoped>
 .banner-section {
     .banner-wrapper {        
-        display: flex;
-        justify-content: center;
-        // align-items: center;
-        
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding: 0 100px;
 
         p {
             padding-top: 75px;
@@ -22,6 +21,10 @@
             font-size: 34px;
             font-weight: 600;
             line-height: 1.35;
+        }
+
+        img {
+            z-index: -1;
         }
     }
 }
