@@ -30,7 +30,7 @@
             </ul>
           </li>
           <li>
-            <g-link>Contact Us</g-link>
+            <g-link to="/contact">Contact Us</g-link>
           </li>
           <li>
             <g-link>

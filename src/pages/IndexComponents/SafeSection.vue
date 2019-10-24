@@ -9,7 +9,7 @@
               <g-image :src="require('../../assets/images/homepage/'+item.image)" />
             </div>
             <div class="text">
-              <h3>{{item.title}}</h3>
+              <h3 class="text-blue">{{item.title}}</h3>
               <p>{{item.content}}</p>
             </div>
           </div>
@@ -85,10 +85,6 @@ export default {
 
         .text {
           padding-left: 20px;
-
-          h3 {
-            color: $jcblue;
-          }
 
           p {
             color: black;
