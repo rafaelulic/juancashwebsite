@@ -22,10 +22,10 @@
             LEARN MORE <font-awesome-icon icon="caret-down" />
             <ul class="dropdown">
               <li>
-                <g-link>Blog</g-link>
+                <g-link to="/blog">Blog</g-link>
               </li>
               <li>
-                <g-link>News</g-link>
+                <g-link to="/promos">Promos</g-link>
               </li>
             </ul>
           </li>
