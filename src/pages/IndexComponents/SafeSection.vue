@@ -76,7 +76,7 @@ export default {
       width: 568px;
       height: 160px;
       border-radius: 8px;
-      border: solid 2px #91e1ff;
+      border: solid 2px $jclightblue;
       padding: 20px;
       margin: 10px;
 

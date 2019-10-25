@@ -155,7 +155,7 @@ export default {
         margin: 20px;
         width: 480px;
         height: 160px;
-        border: solid 2px #91e1ff;
+        border: solid 2px $jclightblue;
         padding: 20px;
         display: flex;
         align-items: center;
