@@ -4,10 +4,10 @@
       <div class="virtual-currencies-left">
         <h2>Virtual Currency Transaction</h2>
         <p>Allows quick buying, selling, exchange of cryptocurrencies and assures the security of crypto assets. Committed to provide secure, transparent and professional digital currency trading services for users worldwide.</p>
-        <button class="btn-large">
+        <a href="https://www.juanexchange.com" class="btn-large">
           Learn More
           <g-image src="~/assets/images/homepage/button-ico-more.png" />
-        </button>
+        </a>
       </div>
       <div class="virtual-currencies-right">
         <g-image src="~/assets/images/homepage/section-img-home-vce.png" />

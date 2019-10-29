@@ -33,28 +33,27 @@
             <g-link to="/contact">Contact Us</g-link>
           </li>
           <li>
-            <g-link>
+            <a href="https://www.facebook.com/JuanCashOfficial/">
               <g-image alt="JuanCash Facebook" :src="require('~/assets/images/homepage/social-facebook'+[isHome ? '' : blue]+'.png')" />
-            </g-link>
+            </a>
           </li>
           <li>
-            <g-link>
-              <g-image alt="JuanCash Facebook" :src="require('~/assets/images/homepage/social-wechat'+ [isHome ? '' : blue] +'.png')" />
-            </g-link>
+            <a href="">
+              <g-image alt="JuanCash WeChat" :src="require('~/assets/images/homepage/social-wechat'+ [isHome ? '' : blue] +'.png')" />
+            </a>
           </li>
           <li>
-            <g-link>
-              <g-image alt="JuanCash Facebook" :src="require('~/assets/images/homepage/social-twitter'+ [isHome ? '' : blue] +'.png')" />
-            </g-link>
+            <a href="https://twitter.com/juancash__">
+              <g-image alt="JuanCash Twittter" :src="require('~/assets/images/homepage/social-twitter'+ [isHome ? '' : blue] +'.png')" />
+            </a>
           </li>
           <li>
-            <g-link>
-              <g-image alt="JuanCash Facebook" :src="require('~/assets/images/homepage/social-instagram'+ [isHome ? '' : blue] +'.png')" />
-            </g-link>
+            <a href="https://www.instagram.com/juancashofficial/">
+              <g-image alt="JuanCash Instagram" :src="require('~/assets/images/homepage/social-instagram'+ [isHome ? '' : blue] +'.png')" />
+            </a>
           </li>
           <li>
             <button class="button">English &nbsp; <font-awesome-icon icon="caret-down" /></button>
-            <!-- <g-link><g-image alt="JuanCash Facebook" src="~/assets/images/homepage/social-facebook.png" /></g-link> -->
           </li>
         </ul>
       </div>

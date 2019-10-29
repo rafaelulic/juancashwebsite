@@ -7,10 +7,10 @@
       <div class="business-section-right">
         <h2>JuanCash Business</h2>
         <p>Boost your business by diversifying your payment options via our latest QR technology</p>
-        <button class="btn-large">
+        <g-link to="/business" class="btn-large">
           Learn More
           <g-image src="~/assets/images/homepage/button-ico-more.png" />
-        </button>
+        </g-link>
       </div>
     </div>
   </div>
@@ -19,7 +19,7 @@
 export default {}
 </script>
 <style lang="scss" scoped>
-.business-section {
+.business-section { 
   height: 337px;
   background-color: $jcblue;
   .business-container {

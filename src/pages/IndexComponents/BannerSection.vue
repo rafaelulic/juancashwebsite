@@ -6,8 +6,12 @@
         <p>Enjoy cashless &amp; hassle-free transactions with your e-wallet partner toward financial convenience!</p>
         <div class="download-images">
           <div class="download-images-left">
-            <g-image src="~/assets/images/homepage/btn-ico-app-android.png" />
-            <g-image src="~/assets/images/homepage/btn-ico-app-ios.png" />
+            <a href="https://play.google.com/store/apps/details?id=com.zybitech.juancash&fbclid=IwAR1PWhfGqQ58gPXOTJlAYR5ufD8MwJnNi_K83iKed3KZlfsssVjJl3GOezI">
+              <g-image src="~/assets/images/homepage/btn-ico-app-android.png" />
+            </a>
+            <a href="https://apps.apple.com/app/id1458711891?fbclid=IwAR3bUqQ3wtVChgQIQPyRD7dgu4FcA33ZM7kp6PeN_HidoSxQC_Unr-U5Czk">
+              <g-image src="~/assets/images/homepage/btn-ico-app-ios.png" />
+            </a>
           </div>
           <div class="download-images-right">
             <g-image src="~/assets/images/homepage/btn-ico-app-qr.png" />

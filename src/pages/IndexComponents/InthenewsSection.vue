@@ -5,11 +5,21 @@
             <h3>In the news</h3>
           </div>
           <div class="news-logo">
-            <g-image src="~/assets/images/homepage/section-inthenews-cnn.jpg" />
-            <g-image src="~/assets/images/homepage/section-inthenews-gma.jpg" />
-            <g-image src="~/assets/images/homepage/section-inthenews-rappler.jpg" />
-            <g-image src="~/assets/images/homepage/section-inthenews-coingeek.jpg" />
-            <g-image src="~/assets/images/homepage/section-inthenews-yugatech.jpg" />
+            <a href="https://www.rappler.com/technology/news/236310-juancash-juanexchange-launch-fintech-company-zybi-tech">
+              <g-image src="~/assets/images/homepage/section-inthenews-rappler.jpg" />
+            </a>
+            <a href="http://bit.ly/JuanCashCNN">
+              <g-image src="~/assets/images/homepage/section-inthenews-cnn.jpg" />
+            </a>
+            <a href="#">
+              <g-image src="~/assets/images/homepage/section-inthenews-gma.jpg" />
+            </a>
+            <a href="https://coingeek.com/zybi-tech-launches-new-apps-to-aid-personal-finances-currency-trades/">
+              <g-image src="~/assets/images/homepage/section-inthenews-coingeek.jpg" />
+            </a>
+            <a href="https://www.yugatech.com/news/juancash-juanexchange-financial-service-platforms-launched/#sthash.SZ1zoxME.dpbs%231dTLmoLb82LR6A87.97">
+              <g-image src="~/assets/images/homepage/section-inthenews-yugatech.jpg" />
+            </a>
           </div>
         </div>
       </div>

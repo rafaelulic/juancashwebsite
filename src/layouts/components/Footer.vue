@@ -1,8 +1,9 @@
 <template>
   <footer class="footer container">
     <div class="zybi-section">
-      <g-image src="~/assets/images/homepage/footer-logo-zybitech.png" />
-
+      <a href="http://www.zybitech.com">
+        <g-image src="~/assets/images/homepage/footer-logo-zybitech.png" />
+      </a>
       <p>8th Floor IMET BPO Tower, Metropolitan Avenue, Roxas Boulevard, Pasay City, Philippines</p>
       <br />
       <p>(028878-0889</p>
@@ -15,11 +16,11 @@
       <h4>Quick Links</h4>
       <div class="links-container">
         <div class="links-container-left flex-column">
-          <g-link>Business</g-link>
-          <g-link>Merchants</g-link>
-          <g-link>Blog</g-link>
-          <g-link>Promos</g-link>
-          <g-link>FAQs</g-link>
+          <g-link to="/business">Business</g-link>
+          <g-link to="/merchants">Merchants</g-link>
+          <g-link to="/blog">Blog</g-link>
+          <g-link to="/promos">Promos</g-link>
+          <g-link to="/faq">FAQs</g-link>
         </div>
         <div class="links-container-right flex-column">
           <g-link>Contact Us</g-link>
@@ -32,10 +33,18 @@
       <g-image src="~/assets/images/homepage/footer-logo-juancash.png" />
       <h4>Connect with us</h4>
       <div class="social-container">
-        <g-image src="~/assets/images/homepage/footer-social-facebook.png" />
-        <g-image src="~/assets/images/homepage/footer-social-wechat.png" />
-        <g-image src="~/assets/images/homepage/footer-social-twitter.png" />
-        <g-image src="~/assets/images/homepage/footer-social-instagram.png" />
+        <a href="https://www.facebook.com/JuanCashOfficial/">
+          <g-image src="~/assets/images/homepage/footer-social-facebook.png" />
+        </a>
+        <a href="">
+          <g-image src="~/assets/images/homepage/footer-social-wechat.png" />
+        </a>
+        <a href="https://twitter.com/juancash__">
+          <g-image src="~/assets/images/homepage/footer-social-twitter.png" />
+        </a>
+        <a href="https://www.instagram.com/juancashofficial/">
+          <g-image src="~/assets/images/homepage/footer-social-instagram.png" />
+        </a>
       </div>
     </div>
     <div class="qr-code">
