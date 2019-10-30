@@ -9,7 +9,8 @@
   "dependencies": {
     "@fortawesome/free-solid-svg-icons": "^5.11.2",
     "gridsome": "^0.7.0",
-    "typeface-open-sans": "0.0.75"
+    "typeface-open-sans": "0.0.75",
+    "vue-faq-accordion": "^1.2.1"
   },
   "devDependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.25",

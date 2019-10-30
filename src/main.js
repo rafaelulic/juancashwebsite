@@ -3,11 +3,12 @@
 
 import DefaultLayout from '~/layouts/Default.vue'
 import { library } from '@fortawesome/fontawesome-svg-core'
-import { faCaretDown } from '@fortawesome/free-solid-svg-icons'
+import { faCaretDown, faCaretUp } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
 
 library.add(faCaretDown)
+library.add(faCaretUp)
 
 
 
