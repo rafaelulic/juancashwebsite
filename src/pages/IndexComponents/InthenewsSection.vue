@@ -49,14 +49,14 @@ export default {
     }
 
     .news-logo {
-      height: 90px;
+      min-height: 90px;
       border-radius: 50px;
       background-color: white;
       padding: 0 50px;
       display: flex;
       justify-content: space-between;
-      align-items: center;
-      width: 800px;
+      align-items: flex-start;
+      min-width: 800px;
     }
   }
 </style>
